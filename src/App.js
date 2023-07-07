@@ -1,4 +1,8 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createHashRouter,
+} from "react-router-dom";
 import CartPage from "./Pages/CartPage/CartPage.jsx";
 import LoadingPage from "./Pages/LoadingPage/LoadingPage.jsx";
 import MainPage from "./Pages/MainPage/MainPage.jsx";
@@ -13,7 +17,7 @@ import { mainContext } from "./Store/MainContext";
 
 function App() {
   const mainContextData = useContext(mainContext);
-  const routers = createBrowserRouter([
+  const routers = createHashRouter([
     {
       path: "/",
       element: <Layout />,

@@ -7,7 +7,7 @@ function NewArrival() {
   return (
     <>
       <div className="demo-page">
-        <h1>404 We Do not have this page</h1>
+        <h1>This is the new arrival page</h1>
       </div>
       {mainContextData.openCart ? <CartPage /> : ""}
     </>
