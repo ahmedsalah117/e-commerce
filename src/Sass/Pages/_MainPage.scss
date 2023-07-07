@@ -1,0 +1,19 @@
+@use "./../variables";
+
+.products-carousel {
+  margin: auto;
+  width: 1088.875px;
+
+  margin-bottom: 5.5rem;
+}
+
+.main-page {
+  &__cart-layer {
+    background: rgba(0, 0, 0, 0.42);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+}

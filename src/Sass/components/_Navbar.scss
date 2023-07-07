@@ -1,0 +1,55 @@
+@use "./../variables" as *;
+nav {
+  font-size: 1.6rem;
+  padding: 2.4rem 0px !important;
+  .nav-item:not(:last-child) {
+    padding-right: 3.2rem;
+  }
+
+  .nav-item:first-child {
+    padding-left: 37.04px;
+  }
+
+  .nav__holder {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .nav__icon {
+    padding-right: 1.8rem;
+  }
+
+  .navIcon__container {
+    position: relative;
+
+    span {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 19px;
+      height: 19px;
+      top: -10px;
+      right: 45%;
+      background-color: $secondary-color;
+      border-radius: 50%;
+      color: $primary-color;
+      font-family: $main-font;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+    }
+    img {
+      cursor: pointer;
+    }
+    img:not(:last-child) {
+      margin-right: 3.2rem;
+    }
+  }
+}
+
+.logo__img {
+  width: 177.956px;
+  height: 52px;
+}

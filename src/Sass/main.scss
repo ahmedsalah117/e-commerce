@@ -1,0 +1,29 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+@use "./components/Logo";
+@use "./components/Loader";
+@use "./components/Navbar";
+@use "./components/header";
+@use "./helperClasses";
+@use "./components/ProductDetails";
+@use "./components/ProductItem";
+@use "./Pages/MainPage";
+@use "./components/Cart";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $main-font;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  cursor: pointer !important;
+}
